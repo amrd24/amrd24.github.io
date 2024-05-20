@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+  <title>Getting page</title>
+  <script>
+  function sc(){alert('scott');}
+  function no(){alert('this ain\'t real YouTube lol');}
+  function resetTitle(){document.title='get scott the woz\'d motherfucker';}
+
+  function t1in(){document.title='Virtual Boy: I\'ve Seen Better - Scott The Woz';document.all['t1'].src='t1a.gif';}
+  function t1out(){resetTitle();document.all['t1'].src='t1.gif';}
+
+  function t2in(){document.title='Game Packaging - Scott The Woz';document.all['t2'].src='t2a.gif';}
+  function t2out(){resetTitle();document.all['t2'].src='t2.gif';}
+  </script>
+  <display nostatus nooptions noscroll showwhencomplete>
+  <bgsound src=https://files.catbox.moe/djb7ht.wav>
+</head><body vspace=0 hspace=0 bgcolor=#344cff transition=wipedown>
+  <map name=playbar>
+    <area href=javascript:no(); coords=7,4,2,0 shape=rect>
+    <area href=javascript:no(); coords=52,32,80,58 shape=rect>
+    <area href=javascript:no(); coords=89,32,118,58 shape=rect>
+    <area href=javascript:no(); coords=402,32,431,59 shape=rect>
+    <area href=javascript:no(); coords=440,32,469,59 shape=rect>
+    <area href=javascript:no(); coords=478,32,507,59 shape=rect>
+    <area href=javascript:no(); coords=517,32,546,59 shape=rect>
+    <area href=javascript:no(); coords=14,32,43,58 shape=rect>
+  </map>
+  <center><table width=100% height=100% cellspacing=0 cellpadding=0>
+    <tr valign=bottom><td colspan=3 height=65></td></tr>
+    <tr><td>
+      <table width=100% cellspacing=0 cellpadding=0><tr><td>
+        <center><a href=javascript:alert('https://youtube.com/watch?v=5TLA7F_rVbM'); onmouseover=t1in() onmouseout=t1out()><img src=t1.gif width=160 height=90 border=2 id=t1></a></center>
+      </td><td>
+        <center><a href=javascript:sc(); selected onmouseover=resetTitle()><img src=scotch.gif width=64 height=64></a></center>
+      </td><td>
+        <center><a href=javascript:alert('https://youtube.com/watch?v=RMq2sEIlY3o'); onmouseover=t2in() onmouseout=t2out()><img src=t2.gif width=160 height=90 border=2 id=t2></a></center>
+      </td></tr></table>
+    </td></tr>
+    <tr valign=bottom><td colspan=3>
+      <table width=100% background=playbarSplit.gif cellspacing=0 cellpadding=0><tr>
+        <td><img src=playBarLeft.gif></td>
+        <td align=right><img src=playBarRight.gif></td>
+      </tr></table>
+    </td></tr>
+  </table></center>
+</body></html>

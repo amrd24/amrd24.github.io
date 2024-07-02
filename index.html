@@ -1,19 +1,21 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>a24net</title>
+<!-- a24net 2.x: Gamindustri redir   -->
+<!-- makes shit work                 -->
+<!-- do i need 3 homepages? yea      -->
+<meta http-equiv="expires" data="0">
 </head>
-<body bgcolor="#000000" gradcolor=404040 gradangle="0">
-<center>
-<br>
-<img src="images/a24net.gif">
-<br>
-<font color="#FFFFFF">
-<h1>Welcome!</h1>
-<br>
-<p>This website is a wasteland created by avegee24 for personal use. Don't expect to see super fancy stuff.</p>
-<br>
-</center>
-<embed width=100% src="buttons.html"></embed>
+<body>
+<script>
+if(navigator.appName.indexOf("WebTV") != -1 && navigator.appVersion.charAt("11") == 1){
+window.location.replace("compa.html");
+}else if(navigator.appName.indexOf("WebTV") != -1 && navigator.appVersion.charAt("11") > 1){
+// go to the good page
+window.location.replace("neptune.html");
+}else{
+// go to the pc page
+window.location.replace("if.html");
+}
+</script>
 </body>
 </html>

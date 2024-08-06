@@ -1,7 +1,6 @@
 <html>
 <head>
-<!-- a24net 2.x: Gamindustri redir   -->
-<!-- makes shit work                 -->
+<!-- a24net 2.x: Home page redir     -->
 <!-- do i need 3 homepages? yea      -->
 <meta http-equiv="expires" data="0">
 </head>
@@ -9,13 +8,13 @@
 <script>
 if(navigator.appName.indexOf("WebTV") != -1 && navigator.appVersion.charAt("11") == 1){
 // go to the ram-limited page
-window.location.replace("compa.html");
+window.location.replace("wtv1.html");
 }else if(navigator.appName.indexOf("WebTV") != -1 && navigator.appVersion.charAt("11") > 1){
 // go to the good page
-window.location.replace("neptune.html");
+window.location.replace("wtv2.html");
 }else{
 // go to the pc page
-window.location.replace("if.html");
+window.location.replace("pc.html");
 }
 </script>
 </body>
